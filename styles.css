@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+h1 {
+  font-family: "Poppins",sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Poppins",sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Poppins",sans-serif;
+  font-weight: bold;
+}
+
+#title {
+ background-color: #867c7c;
+  color: #fff;
+  width: 100%
+  height:10rem
+}
+
+.container-fluid {
+  padding: 2% 15% 4%;
+
+}
+
+/*navigation bar*/
+.navbar {
+
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-size: 5rem;
+  font-weight: bold;
+  color: orange
+  word-spacing:50px
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-light"
+}
+
+/* Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image*/
+.Title-img {
+  transform: rotate(40deg);
+  position: absolute;
+
+max-width: 100%;
+height: auto;
+
+}
+
+.title-section {
+  background-color: black;
+  color: #fff;
+  padding: 7% 15% 10%;
+}
+
+/* feature section*/
+#features {
+  padding: 1% 1%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  height: 16rem
+}
+
+.btn-dark:hover {
+  color: #F0D9E7;
+}
+
+@media only screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-section {
+    text-align: center;
+  }
+
+  .Title-img {
+    position: static;
+    transform: rotate(0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+   .testimonials{
+     max-height: 100%
+   }
+
+  .sagnik{
+    background-color: black
+  }
+
+  navbar-nav ml-auto {
+    text-align: center;
+  }
+}

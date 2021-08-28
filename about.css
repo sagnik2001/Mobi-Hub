@@ -1,0 +1,15 @@
+#pricing{
+   padding: 100px;
+   text-align: center;
+   background-color: white
+ }
+ .pad-colm{
+   padding: 3% 2%;
+
+ }
+ .tag{
+   padding-bottom: 5%
+ }
+.card{
+  border-radius: 15px;
+}
